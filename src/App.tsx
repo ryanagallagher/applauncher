@@ -9,12 +9,12 @@ function App() {
 
   const handleOpenDev = () => {
     const devLink = "maxaiworld://dev";
-    window.open(devLink, "_blank");
+    window.location.href = devLink;
   };
 
   const handleOpenLive = () => {
     const liveLink = "maxaiworld://live";
-    window.open(liveLink, "_blank");
+    window.location.href = liveLink;
   };
 
   return (
